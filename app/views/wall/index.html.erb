@@ -1,0 +1,4 @@
+<h1>Welcome to the wall, <%= @user.first_name %>!</h1>
+<p>Isn't this a nice place?</p>
+
+<%= link_to('log off', destroy_user_session_path, :method => 'delete') %>
